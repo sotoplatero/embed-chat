@@ -1788,7 +1788,7 @@ const ye = st('<div class="flex justify-end mb-2 items-end guest-container"><spa
         return r = (e = Se()).firstChild, e.$$click = () => t.onSourceClick?.(), r.style.setProperty("width", "max-content"), r.style.setProperty("max-width", "80px"), r.style.setProperty("font-size", "13px"), r.style.setProperty("border-radius", "15px"), r.style.setProperty("cursor", "pointer"), r.style.setProperty("text-overflow", "ellipsis"), r.style.setProperty("overflow", "hidden"), r.style.setProperty("white-space", "nowrap"), ct(r, (() => t.pageContent)), e;
         var e, r
     },
-    Pe = (nt(["click"]), st('<span style="display:none;">Powered by<a href="https://flowiseai.com" target="_blank" rel="noopener noreferrer" class="lite-badge" id="lite-badge"><span> Flowise')),
+    Pe = (nt(["click"]), st('<span style="display:none;"><a href="#"><span> Flowise')),
     $e = "#303235",
     Te = t => {
         let e, r;
