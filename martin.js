@@ -1030,7 +1030,7 @@ const jt = st('<input class="focus:outline-none bg-transparent px-4 py-4 flex-1 
         }));
         {
             const r = Jt();
-            return r.$$keydown = i, r.style.setProperty("border-top", "1px solid #eeeeee"), r.style.setProperty("position", "absolute"), r.style.setProperty("left", "20px"), r.style.setProperty("right", "20px"), r.style.setProperty("bottom", "40px"), r.style.setProperty("margin", "auto"), r.style.setProperty("z-index", "1000"), ct(r, U(It, {
+            return r.$$keydown = i, r.style.setProperty("border-top", "1px solid #eeeeee"), r.style.setProperty("position", "absolute"), r.style.setProperty("left", "20px"), r.style.setProperty("right", "20px"), r.style.setProperty("bottom", "20px"), r.style.setProperty("margin", "auto"), r.style.setProperty("z-index", "1000"), ct(r, U(It, {
                 ref(t) {
                     "function" == typeof s ? s(t) : s = t
                 },
