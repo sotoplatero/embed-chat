@@ -1810,7 +1810,7 @@ const ye = st('<div class="flex justify-end mb-2 items-end guest-container"><spa
         {
             const r = Pe(),
                 s = r.firstChild.nextSibling;
-                r.style.setProperty("display", "none");
+                r.style.setProperty("display", "none"), r.style.setProperty("font-size", "13px"), r.style.setProperty("position", "absolute"), r.style.setProperty("bottom", "0"), r.style.setProperty("padding", "10px"), r.style.setProperty("margin", "auto"), r.style.setProperty("width", "100%"), r.style.setProperty("text-align", "center");
             return "function" == typeof e ? lt(e, s) : e = s, s.style.setProperty("font-weight", "bold"), k((e => {
                 var n = t.poweredByTextColor ?? $e,
                     o = t.badgeBackgroundColor ?? "#ffffff",
